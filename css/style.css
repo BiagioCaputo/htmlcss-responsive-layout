@@ -29,6 +29,7 @@ ul{
 
 .container{
     width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -38,6 +39,7 @@ ul{
 
 .small-container{
     width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 /*header-title*/
