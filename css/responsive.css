@@ -3,10 +3,17 @@
 @media screen and (min-width:768px){
 
 
-    /*titolo ed header*/
+    /*Titolo ed header*/
     h1{
         text-align: start;
-        
+    }
+
+    .recipe-name-small{
+        display: none;
+    }
+
+    .recipe-name-big{
+        display: block;
     }
 
     .generals{
@@ -31,8 +38,19 @@
     .advertising{
         display: block;
     }
+    
 
+    /* Main*/
+    .img-box{
+        float: left;
+        margin-right: 10px;
+    }
+    
 
+    /*Footer*/
+    .footer-links-list li{
+        flex-basis:calc(20% - 20px);
+    }
 
 
 }

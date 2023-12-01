@@ -74,9 +74,16 @@ h1{
     margin-bottom: 20px;
 }
 
-.recipe-name{
+.recipe-name-small{
     color:#4D3969;
     font-size: 2rem;
+}
+
+.recipe-name-big{
+    color:#4D3969;
+    font-size: 2rem;
+    display: none;
+
 }
 
 .rating{
@@ -220,6 +227,6 @@ footer a{
     justify-content: center;
 }
 
-.footer-links-list li:last-child{
-    flex-basis: 100%;
+.footer-links-list li{
+    flex-basis: calc(100%/4 - 20px);
 }
