@@ -1,0 +1,39 @@
+/*Modalità Tablet*/
+
+@media screen and (min-width:768px){
+
+
+    /*titolo ed header*/
+    h1{
+        text-align: start;
+        
+    }
+
+    .generals{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:50px;
+    }
+
+    .generals > *{
+        flex-basis: calc(100% / 3 - 50px);
+    }
+
+    .social-links-box{
+        gap:10px;
+        font-size: 20px;
+    }
+
+    .social-link{
+        padding:10px 50px;
+    }
+
+    .advertising{
+        display: block;
+    }
+
+
+
+
+}
+    
