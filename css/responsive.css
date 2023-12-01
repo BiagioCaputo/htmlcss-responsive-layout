@@ -6,6 +6,7 @@
     /*Titolo ed header*/
     h1{
         text-align: start;
+        margin-left: 20px;
     }
 
     .recipe-name-small{
@@ -54,4 +55,63 @@
 
 
 }
-    
+
+
+
+/*Modalità Desktop*/
+@media screen and (min-width:992px){
+    /*Generals*/
+    .container:{
+        max-width: 80%;
+        
+    }
+
+    /*Header*/
+
+    .video-schedule-preparation-box{
+        display: flex;
+    }
+
+    .video-recipe{
+        flex-basis: 70%;
+    }
+
+    .schedule-recipe{
+        flex-basis:30%;
+    }
+
+    .generals{
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .social-name{
+        display: ;
+    }
+
+    /*Main*/
+
+
+
+    /*Footer*/
+
+    .box-footer{
+        display: flex;
+        margin: 0 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .address-box > *{
+        text-align: start;
+    }
+
+    .footer-links-list{
+        align-self: flex-end;
+        
+        
+    }
+
+
+}
