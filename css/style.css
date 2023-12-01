@@ -219,3 +219,7 @@ footer a{
     gap:20px;
     justify-content: center;
 }
+
+.footer-links-list li:last-child{
+    flex-basis: 100%;
+}
